@@ -16,14 +16,14 @@ let area = 0.5 * base * height;
 console.log(alert(`Your area is ${area}`));*/
 
 //ex2
-let sideA = parseInt(prompt("Enter side A"));
+/*let sideA = parseInt(prompt("Enter side A"));
 let sideB = parseInt(prompt("Enter side B"));
 let sideC = parseInt(prompt("Enter side C"));
 let perimeter = sideA + sideB + sideC;
-console.log(alert(`The perimeter of the triangle is ${perimeter}`));
+console.log(alert(`The perimeter of the triangle is ${perimeter}`));*/
 
 //ex3
-let width = parseInt(prompt("Enter the width"));
+/*let width = parseInt(prompt("Enter the width"));
 let length = parseInt(prompt("Enter the lenth"));
 let areaOfRectangle = length * width;
 let perimeterOfRectangle = 2 * (length + width);
@@ -31,4 +31,4 @@ console.log(
   alert(
     `This is the area of a rectangle ${areaOfRectangle} while its perimeter is ${perimeterOfRectangle}`
   )
-);
+);*/
