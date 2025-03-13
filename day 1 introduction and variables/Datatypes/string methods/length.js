@@ -7,3 +7,4 @@ let firstName = "Asabeneh";
 console.log(firstName.length);
 let secondName = "Bakari";
 console.log(secondName.length);
+s;

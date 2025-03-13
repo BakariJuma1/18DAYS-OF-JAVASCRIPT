@@ -67,3 +67,31 @@ age > 18 ? console.log("You are an Adult") : console.log("You are a minor");
 
 let number = 10;
 number % 2 === 0 ? console.log("even") : console.log("odd");
+
+// operator precedence (bodmas) deermines the order of operations
+//Window methods
+//window alert() displays an alert with a specified message
+//do not use much of it as its distracting
+//window prompt() display an input dialog box with a specified message
+//window confirm() display a dialog box with a specified message and ok and cancel buttons
+//window methods can be accessed with the window keyword and also directly
+//let numberInput = prompt("enter number");
+//console.log(numberInput);
+
+//confirm() method displays dialog box with a with a specified message and ok and cancel buttons often used to ask for user confirmation
+//const agree = confrim("Are you sure youd like to delete");
+//console.log(agree);
+
+// Date object
+//methods used to get the date and time
+//creating a time object
+
+const now = new Date();
+console.log(now);
+//getting full year extract full year from a time object
+
+const today = new Date();
+console.log(today.getFullYear());
+console.log(today.getMonth());
+console.log(today.getDay());
+console.log(today.getMinutes());
